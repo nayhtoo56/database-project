@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   # any PV name
-  name: nhn-pv
+  name: nhn-nfs-pv
 spec:
   storageClassName: manual
   capacity:
