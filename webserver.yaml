@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nhn_webserver
+  name: nhnwebserver
   labels:
     app: apache
 spec:
