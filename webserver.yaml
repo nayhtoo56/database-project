@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nhnwebserver
+  name: nhnweb
   labels:
-    app: apache
+    app: nhnweb
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: apache
+      app: nhnweb
   template:
     metadata:
       labels:
-        app: apache
+        app: nhnweb
     spec:
       containers:
       - name: php-apache
