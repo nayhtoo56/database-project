@@ -26,4 +26,4 @@ spec:
         - name: hostvol
           persistentVolumeClaim:
             # PVC name you created
-            claimName: nhn-nfs-pvc
+            claimName: nhnweb-pvc
