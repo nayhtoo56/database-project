@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: web-service
+  name: nhnwebserver
   labels:
-    run: web-service
+    run: nhnwebserver
 spec:
   type: LoadBalancer
   ports:
