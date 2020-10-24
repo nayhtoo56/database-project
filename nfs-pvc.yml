@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   # any PVC name
-  name: nhn-nfs-pvc
+  name: nhnweb-pvc
 spec:
   storageClassName: nfs001
   accessModes:
